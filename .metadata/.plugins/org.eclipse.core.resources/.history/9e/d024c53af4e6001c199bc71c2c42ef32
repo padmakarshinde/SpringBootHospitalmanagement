@@ -1,0 +1,17 @@
+package com.example.model;
+
+public class Appointment {
+	
+	int id;
+	String name;
+	String email;
+	String password;
+	String firstname;
+	String lastname;
+	String dob;
+	String gender;
+	String phoneno;
+	String address;
+	String treatement;
+
+}

@@ -1,0 +1,10 @@
+package com.example.repo;
+
+import org.springframework.stereotype.Repository;
+import org.springframework.web.bind.annotation.CrossOrigin;
+
+@Repository
+@CrossOrigin(allowedHeaders = "*", origins = "*")
+public interface AppointmentRepo extends CurdRepository<Appointment,Integer>{
+
+}
